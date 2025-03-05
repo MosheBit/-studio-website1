@@ -1,0 +1,150 @@
+footer {
+  background: linear-gradient(to right, #ffb8c2, #F6A4B0, #ffb8c2);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  color: #f4f4f4;
+}
+
+footer .text-center {
+  text-align: center;
+}
+
+footer .max-w-2xl {
+  width: 100%; /* רוחב מלא */
+  display: flex;
+  justify-content: space-between; /* מציב את התוכן בצדדים */
+  align-items: flex-start;
+}
+
+footer .max-w-2xl a img {
+  width: 150px;
+  margin-bottom: 16px;
+}
+
+
+
+ 
+ 
+ 
+
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+footer .social-icons svg {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer .social-icons svg:hover {
+  color: #829db9;
+}
+
+footer .grid {
+  margin-top: 40px;
+}
+
+footer .grid li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+footer .grid li .bg-gray-900 {
+  background-color: #8a3d3d;
+}
+
+footer .grid li span {
+  margin-left: 12px;
+}
+
+
+
+.footer-content {
+  flex-grow: 1;
+  text-align: center;
+  width:300%;
+}
+
+.contact-form-container {
+  display: flex; /* מאפשר למקם את האלמנטים בצדדים */
+  justify-content: space-between; /* ממקם את התוכן בצדדים */
+  align-items: center; /* מסדר את התוכן אנכית במרכז */
+  max-width: 100%; /* מוודא שהרוחב יהיה מתאים */
+  margin: 0 auto; /* ממקם את הטופס במרכז */
+}
+
+.contact-form-container .flex-shrink-0 {
+  flex-shrink: 0; /* מונע שהאלמנט י縮缩 */
+}
+
+.contact-form-container  {
+  width: 80%; /* כל אלמנט תופס חצי מהשטח */
+}
+
+.LogoLogo {
+  width: 300px; /* רוחב קבוע */
+  height: auto; /* שימור פרופורציות */
+}
+
+
+
+/* עיצוב עבור אייקוני רשתות חברתיות */
+.social-iconssss {
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* מרווח בין האייקונים */
+}
+
+.social-icon {
+  font-size: 30px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #f0f0f0; /* שינוי צבע בהיר יותר בעת hover */
+  transform: scale(1.1); /* הגדלת האייקון קצת בעת hover */
+}
+
+.social-icon:hover .phone {
+  color: #b9cfb3; /* צבע ירוק לטלפון בעת hover */
+}
+
+.social-icon:hover .whatsapp {
+  color: #7d9e89; /* צבע ירוק לווצאפ בעת hover */
+}
+
+.social-icon:hover .instagram {
+  color: #e3bdca; /* צבע אדום לאינסטגרם בעת hover */
+}
+
+.social-icon:hover .envelope {
+  color: #c10808; /* צבע אדום עבור מייל בעת hover */
+}
+
+.social-icon:hover .tiktok {
+  color: #000000; /* צבע שחור לטיקטוק בעת hover */
+}
+
+/* עיצוב לאייקון Waze */
+.social-icon {
+  font-size: 30px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #cbdfe9; /* צבע כחול בעת hover */
+  transform: scale(1.1); /* הגדלת האייקון מעט בעת hover */
+}

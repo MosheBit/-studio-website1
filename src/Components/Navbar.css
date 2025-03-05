@@ -1,0 +1,94 @@
+/* עיצוב עבור ה-navbar */
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F6A4B0; /* צבע הרקע */
+    color: white; /* צבע הטקסט */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    direction: rtl; /* יישור מימין לשמאל */
+  }
+  
+  header img {
+    max-width: 120px; /* גודל הלוגו */
+  }
+  header nav {
+  width: 100%; /* תופס את כל הרוחב */
+  display: flex;
+  justify-content: center; /* ממרכז את התפריט */
+}
+
+  
+  /* עיצוב של תפריט הניווט */
+  header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* מאפשר לטקסט להתרכז במרכז */
+
+    justify-content: center; /* ממרכז את האלמנטים בתפריט */
+  }
+  
+  header nav ul li {
+    font-size: 16px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #646cff; /* צבע עכבר (hover) */
+  }
+  
+
+
+
+
+/* עיצוב עבור אייקוני רשתות חברתיות */
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end; /* ממקם את האייקונים בצד ימין */
+  }
+  
+  .social-icons a {
+    font-size: 30px;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+  }
+  
+  /* אייקון טלפון */
+.social-icons a.phone {
+    color: #5df134; /* צבע כחול טלפון */
+  }
+  /* צבעים מותאמים אישית עבור כל אייקון */
+  .social-icons a.whatsapp {
+    color: #25D366; /* צבע ירוק לווצאפ */
+  }
+  
+  .social-icons a.instagram {
+    color: #E1306C; /* צבע אדום לאינסטגרם */
+  }
+  
+  .social-icons a.envelope {
+    color: #c10808; /* צבע אדום עבור מייל */
+  }
+  
+  .social-icons a.tiktok {
+    color: #000000; /* צבע שחור לטיקטוק */
+  }
+  
+  /* שינוי צבעים בעת hover */
+  .social-icons a:hover {
+    opacity: 0.5;
+  }
+

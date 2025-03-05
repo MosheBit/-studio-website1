@@ -1,0 +1,82 @@
+.home-container {
+    text-align: center;
+    padding:0px;
+    
+    /* margin:0px; */
+    width: 100%; /* מבטיח שהקונטיינר יתפרס על כל רוחב המסך */
+    /* height: 120vh; כל גובה המסך */
+    left: 0% ;
+    right: 0%;
+    top: 0%;
+    margin: 0% ;         /* מבטיח שהקונטיינר יתפרס על כל רוחב המסך */  
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; חלוקת הקונטיינר לשתי שורות באותו גובה */
+    /* grid-template-columns: 1fr; חלוקת הקונטיינר לעמודה אחת */
+    /* grid-gap: 10px; מרווח בין השורות */
+    /* font-family: Arial, sans-serif; */
+}
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* או גובה מותאם אישית */
+
+    overflow: hidden;
+    z-index: -1; /* מבטיח שהווידאו יהיה ברקע */
+    left: 100%;
+    top: 0%;
+    right: 0%;
+
+    margin: 0% ;         /* מבטיח שהקונטיינר יתפרס על כל רוחב המסך */
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    margin: 0% ;         /* מבטיח שהקונטיינר יתפרס על כל רוחב המסך */
+    object-fit: cover; /* מתאים את הווידאו לגודל הקונטיינר */
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(228, 107, 107, 0.5); /* רקע חצי שקוף */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* טקס עיצוב סטודיו */
+.studio-info {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .studio-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .studio-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }

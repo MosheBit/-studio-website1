@@ -1,0 +1,101 @@
+/* עיצוב הכללי עבור מחירון הסטודיו */
+.pricing-container {
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  
+  .pricing-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* יצוג של 2 כרטיסים בכל שורה */
+    gap: 70px; /* מרווח בין הכרטיסים */
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  
+  .pricing-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%; /* להגדיל את הרוחב של הכרטיס */
+    max-width: 450px; /* רוחב מקסימלי לכל כרטיס */
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pricing-plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-price {
+    font-size: 28px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #777;
+    margin-left: 10px;
+  }
+  
+  .pricing-details {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .pricing-details li {
+    margin: 10px 0;
+  }
+  
+  .pricing-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pricing-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .pricing-icon {
+    font-size: 60px;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  /* התאמות עבור מסכים קטנים */
+  @media (max-width: 768px) {
+    .pricing-cards {
+      grid-template-columns: 1fr; /* הופך את התצוגה ל-1 כרטיס בכל שורה */
+    }
+  }
+  

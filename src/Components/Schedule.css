@@ -1,0 +1,49 @@
+/* עיצוב הכללי עבור לוח הזמנים */
+.schedule-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* צבע רקע בהיר */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .schedule-title {
+    /* font-size: 28px; */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .schedule-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+  
+  .schedule-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .schedule-image-container:hover .schedule-image {
+    transform: scale(1.01);
+  }
+  
+  @media (max-width: 768px) {
+    .schedule-container {
+      padding: 30px 15px;
+    }
+  
+    .schedule-title {
+      font-size: 35px;
+    }
+  }
+  

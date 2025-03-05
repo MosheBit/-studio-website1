@@ -1,0 +1,15 @@
+.contact-page {
+    direction: rtl; /* מגדיר את הכיוון מימין לשמאל */
+    text-align: right; /* מיישר את כל התוכן לימין */
+    padding: 20px; /* מוסיף ריווח פנימי */
+    font-family: Arial, sans-serif; /* קובע את הגופן */
+    line-height: 1.6; /* שיפור קריאות */
+  }
+  
+  .contact-page h2,
+  .contact-page p,
+  .contact-page a {
+    direction: rtl; /* כיוון טקסט ספציפי */
+    text-align: right; /* מיישר את התוכן לימין */
+  }
+  

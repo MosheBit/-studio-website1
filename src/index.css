@@ -1,0 +1,25 @@
+/* הגדרה עבור כל האלמנטים בעמוד */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* שים לב, לא ממורכז */
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* יאפשר לתוכן לקחת את כל הגובה */
+  width: 100%; /* תוודא שהחלק הזה לוקח 100% רוחב */
+  padding: 0px; /* padding אחיד לתוכן, תוכל לשנות לפי הצורך */
+}
+
+

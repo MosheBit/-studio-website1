@@ -1,0 +1,43 @@
+
+
+
+
+/* סגנונות לפופאפ */
+.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(168, 91, 91, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: rgb(237, 195, 195);
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .close-popup {
+    background-color: #e74c3c;
+    color: rgb(47, 30, 30);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .close-popup:hover {
+    background-color: #c0392b;
+  }

@@ -1,0 +1,106 @@
+#panes-container {
+    display: flex;
+    /* flex-direction: column;  */
+    /*מכוון את התמונות בכיוון אנכי*/
+    gap: 2rem; /* מרווח בין התמונות */
+    padding: 1rem;
+    justify-content: center;
+    /* מכוון את התמונות באופק */
+    align-items: center;
+    /* מכוון את התמונות באנכי */
+    flex-wrap: wrap;
+    /* כדי שהתמונות יצטרפו לשורה הבאה כאשר ימלאו את הרוחב */
+    
+  }
+.pane {
+    position: relative;
+    /* display: flex; כדי להציג את התמונה והתוכן בסגנון אופקי */
+    flex-direction: row;
+     /* מגדיר את סדר הרכיבים - תמונה ואז טקסט */
+    border-radius: 1.5rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .pane:hover {
+    transform: scale(1.15);
+    box-shadow: 0 10px 20px rgba(10, 202, 61, 0.2);
+    
+
+  }
+
+  .gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, rgba(149, 41, 41, 0.8), transparent);
+    z-index: 20;
+
+  }
+  
+
+  .label1 {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+
+    margin-bottom: 10rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    z-index: 30;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  
+  .icon {
+    background-color: #bc5151;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .content {
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .subtitle {
+    opacity: 0.7;
+    font-size: 1rem;
+  }
+
+/* סגנונות נוספים להתאמת התצוגה לרוחב */
+.pane img {
+    width: 100%; /* אם אתה רוצה שהתמונה תתפוס חצי מהפאנל */
+    object-fit: cover; /* שומר על יחס הגובה-רוחב של התמונה */
+  }
+  
+  .pane .label1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .title {
+    font-size: 2rem;
+
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
